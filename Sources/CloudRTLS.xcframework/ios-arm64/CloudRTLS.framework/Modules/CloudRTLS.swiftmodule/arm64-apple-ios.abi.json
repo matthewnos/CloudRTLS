@@ -1,0 +1,98 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudRTLS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CloudRTLS3SDKV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s9CloudRTLS3SDKV9configure6apiKeyySS_tFZ",
+            "moduleName": "CloudRTLS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomeWork",
+            "printedName": "doSomeWork()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CloudRTLS3SDKV10doSomeWorkyyFZ",
+            "mangledName": "$s9CloudRTLS3SDKV10doSomeWorkyyFZ",
+            "moduleName": "CloudRTLS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9CloudRTLS3SDKV",
+        "mangledName": "$s9CloudRTLS3SDKV",
+        "moduleName": "CloudRTLS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/matthewnos\/Desktop\/Primary\/Dev\/Apps\/Projects\/CIRTLSSDK\/Framework\/CloudRTLS\/CloudRTLS\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 171,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/matthewnos\/Desktop\/Primary\/Dev\/Apps\/Projects\/CIRTLSSDK\/Framework\/CloudRTLS\/CloudRTLS\/SDK.swift",
+      "kind": "Array",
+      "offset": 215,
+      "length": 31,
+      "value": "[\"privateKey123\"]"
+    }
+  ]
+}

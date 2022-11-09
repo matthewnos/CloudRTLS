@@ -1,0 +1,11 @@
+framework module CloudRTLS {
+  umbrella header "CloudRTLS.h"
+
+  export *
+  module * { export * }
+}
+
+module CloudRTLS.Swift {
+  header "CloudRTLS-Swift.h"
+  requires objc
+}
